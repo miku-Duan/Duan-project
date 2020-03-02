@@ -1,0 +1,72 @@
+生命周期
+cloud watch
+EBS加密
+
+挂载卷前要先file -s /dev/xxx	    查看卷的格式，如果格式不为空卷，那么直接挂装，如果格式为date那么就需要格式化
+yum install xfsprogs 
+mkfs -t xfs /dev/xxx
+格式完成后即可进行挂装，同一种类型的两个盘不能进行挂装。
+
+相同的卷只能挂装一次
+
+mount: wrong fs type, bad option, bad superblock on /dev/xvdj,
+       missing codepage or helper program, or other error
+
+       In some cases useful info is found in syslog - try
+       dmesg | tail or so.
+
+I/O、I/O性能、
+
+MBR 使用 32 位数据结构来存储块地址。
+这意味着，每个数据块会映射到 232 个可能整数之一。卷的最大可寻址大小由以下公式指定：
+
+GPT 使用 64 位数据结构来存储块地址。
+这意味着，每个数据块会映射到 264 个可能整数之一。卷的最大可寻址大小由以下公式指定：
+
+卷的初始化对我们是否需要，初始化的说法就是快照后的卷需要进行一次写入数据后
+才能访问其中的数据块，但是为什么我们没有初始化的写入就可以直接查看数据了呢
+
+RAID我们会不会用到，利用RAID增加II/O的性能，对于I/O性能还有冗余
+
+
+
+10   8   2
+20   18   2
+
+growpart 扩充分盘的卷
+xfs_growfs 扩充你的文件系统卷
+
+sudo yum install xfsprogs
+
+数据库AMI最低限度的规则
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": "ssm:*",
+            "Resource": "arn:aws:ssm:*:*:parameter/inventory-app/*",
+            "Effect": "Allow"
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
