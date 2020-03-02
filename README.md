@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## 欢迎来到Duan的仓库
 
-You can use the [editor on GitHub](https://github.com/miku-Duan/Duan-project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+你可以根据你需要些什么，来进行明确的更改。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 我的个人资料
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+段宇天下第一
 
 ```markdown
-Syntax highlighted code block
+喜欢玩的游戏
 
-# Header 1
-## Header 2
-### Header 3
+# 星际争霸2
+## 300英雄
+### 传说之下
 
-- Bulleted
-- List
+- 你连我生日都不知道？
+- 性别还要我告诉你？
 
-1. Numbered
-2. List
+1. 邮箱：1303962068@qq.com
+2. 住址：云南红河州蒙自市
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### 除此之外
+如果你有其它想法或者想了解我，可以通过上面的联系方式就行询问交流。
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/miku-Duan/Duan-project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 技术支持
+啥都没得，穷鬼一个
